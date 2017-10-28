@@ -40,31 +40,41 @@
 	border-top: 2px solid #dddddd;
 	border-bottom: 4px solid #4aaaa5;
 }
-.about-me {
+.portfolio-items {
 	float: left;
 	width: 650px;
-	height: 400px;
+	height: 600px;
 	background-color: #ffffff;
 	margin-top: 20px;
 	margin-left: 70px;
 	padding: 10px 20px 10px 20px;
 	border: 0.5px solid #cccccc;
 }
-.about-me h2 {
+.portfolio-items h2 {
 	font-size: 30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-.about-me hr {
+.portfolio-items hr {
 	margin-bottom: 20px;
 	border: 1px solid #cccccc;
 }
-.about-me p {
-	font-size: 18px;
+.image-container {
+	position: relative;
+	display: inline;
+	width: 100%;
+}
+.image-container h4 {
+	position: absolute;
+	top: -38px; 
+	left: 35px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 15px 40px; 
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 30px;	
+	font-size: 20px;
 }
 .connect {
 	float: left;
